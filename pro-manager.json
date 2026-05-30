@@ -1,0 +1,21 @@
+[
+  {
+    "projectName": "雷霆战机",
+    "rootDir": "D:\\MyFiles\\Sources\\reaction\\seeker-server\\pro-manager\\projects\\雷霆战机",
+    "readme": "./README.md",
+    "frontend": {
+      "dir": "./frontend",
+      "currentPID": 55176,
+      "language": "vue3",
+      "status": "running",
+      "devCommand": "npm run dev",
+      "port": 5176,
+      "size": 0.07,
+      "readme": "./README.md",
+      "depSize": 43.49
+    },
+    "originalProject": "",
+    "projectType": "app",
+    "createdAt": "2026-05-29T21:57:22.012Z"
+  }
+]
