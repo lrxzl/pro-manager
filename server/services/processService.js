@@ -329,7 +329,7 @@ const processService = {
 
   // 内部方法：spawn npm dev
   _spawnNpmDev(dirPath, port) {
-    const env = { ...process.env, PORT: String(port) };
+    const env = { ...process.env, PORT: String(port), PATH: path.join(dirPath, 'node_modules', '.bin') + path.delimiter + (process.env.PATH || '') };
     // 使用 --port 参数传递端口给 Vite
     if (isWindows) {
       return spawn('cmd', ['/c', 'npm', 'run', 'dev', '--', '--port', String(port)], {

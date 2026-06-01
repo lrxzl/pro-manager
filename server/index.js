@@ -95,9 +95,9 @@ server.listen(PORT, '0.0.0.0', () => {
   console.log('🚀 Pro Manager 已启动!');
   console.log('');
   console.log(`   后端 API: http://localhost:${PORT}`);
-  console.log(`   前端页面: http://localhost:5174`);
+  console.log(`   前端页面: http://localhost:5173`);
   console.log('');
-  console.log('   提示: 请在浏览器中打开 http://localhost:5174');
+  console.log('   提示: 请在浏览器中打开 http://localhost:5173');
   console.log('');
 });
 

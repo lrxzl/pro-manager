@@ -125,7 +125,7 @@
         </div>
 
         <div class="form-group">
-          <label>选择手脚架</label>
+          <label>选择技术栈</label>
           <div class="scaffold-list">
             <div
               v-for="s in scaffolds"

@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [vue()],
   server: {
     host: '0.0.0.0',
-    port: 5174,
+    port: 5173,
     open: true, // 自动打开浏览器
     proxy: {
       '/api': { target: 'http://localhost:3456', changeOrigin: true },
